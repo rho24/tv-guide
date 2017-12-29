@@ -4,3 +4,5 @@ node_js:
 
 deploy:
   provider: azure_web_apps
+  skip_cleanup: true
+  verbose: true
